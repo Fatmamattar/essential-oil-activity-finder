@@ -58,7 +58,7 @@ const Predict = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Leaf className="h-8 w-8 text-emerald-600" />
-              <span className="text-xl font-bold text-gray-900">EssentialAI</span>
+              <span className="text-xl font-bold text-gray-900">EO Biological Activity Finder</span>
             </div>
             <div className="flex space-x-6">
               <Link to="/" className="text-gray-700 hover:text-emerald-600 transition-colors">Home</Link>
@@ -161,7 +161,7 @@ const Predict = () => {
             <div className="space-y-2 text-gray-600">
               <p>• Adjust each slider to match your essential oil's chemical properties</p>
               <p>• Values range from 0.0 to 10.0 representing normalized chemical characteristics</p>
-              <p>• Click "Predict Activities" to generate AI-powered biological activity predictions</p>
+              <p>• Click "Predict Activities" to generate predictions</p>
               <p>• Results will show confidence scores for various biological activities</p>
             </div>
           </CardContent>

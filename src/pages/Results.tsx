@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -89,7 +88,7 @@ const Results = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Leaf className="h-8 w-8 text-emerald-600" />
-              <span className="text-xl font-bold text-gray-900">EssentialAI</span>
+              <span className="text-xl font-bold text-gray-900">EO Biological Activity Finder</span>
             </div>
             <div className="flex space-x-6">
               <Link to="/" className="text-gray-700 hover:text-emerald-600 transition-colors">Home</Link>
@@ -111,7 +110,7 @@ const Results = () => {
             Prediction Results
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            AI-powered analysis of your essential oil's biological activities based on chemical properties
+            Analysis of your essential oil's biological activities based on chemical properties
           </p>
         </div>
 
